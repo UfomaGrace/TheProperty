@@ -1,0 +1,18 @@
+import React from 'react'
+
+export default function Serviceh() {
+  return (
+    <div>
+      <div className="py-6 md:py-30">
+      <div className="text-center mt-20 md:mt-10">
+        <h1 className="md:text-5xl text-4xl text-center items-center font-semibold text-gray-800">Services</h1>
+        <p className="md:mt-8 mt-6 text-center text-base justify-center md:mx-30 mx-6 md:px-30 px-4 text-gray-700">
+          Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas 
+          consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. 
+          Quasi ratione sint. Sit quaerat ipsum dolorem.
+        </p>
+      </div>
+    </div>
+    </div>
+  )
+}
