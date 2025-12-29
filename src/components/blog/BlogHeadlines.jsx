@@ -60,13 +60,13 @@ const blognews = [
 export default function BlogHeadlines() {
   return (
     <div>
-        <div className='grid grid-cols-3 px-20 gap-8'>
+        <div className='grid md:grid-cols-3 grid-cols-1 md:px-20 px-2 gap-8'>
             {blognews.map((item) => (
                 <div key={item.id} className='max-w-lg rounded-2xl shadow-2xl '>
                     <div className='rounded-tr-2xl rounded-tl-2xl object-cover'>
                         {item.img}
                     </div>
-                    <div className='px-6 py-4'>
+                    <div className='md:px-6 px-2 md:py-4 py-2'>
                         <div className='mb-4'>
                             <p className='text-lg text-[#323b3b99] mb-2'>{item.title}</p>
                             <a href='/' className='text-[#163535] font-bold text-xl cursor-pointer hover:text-teal-700 transition-colors duration-200'>{item.heading}</a>

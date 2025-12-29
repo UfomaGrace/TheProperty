@@ -2,10 +2,10 @@ import React from 'react'
 
 export default function BlogPost() {
   return (
-    <div className='py-20 px-18'>
+    <div className='py-20 md:px-18 px-2'>
         <div className='flex md:flex-row flex-col gap-5'>
 
-            <div className='grid grid-cols-2 md:grid-cols-1 space-y-8'>
+            <div className='grid grid-cols-1 space-y-8'>
                 <div className='max-w-xs'>
                     <div className='overflow-hidden z-40 relative'>
                         <img src="/images/blog-post-1.webp" alt="Blog Post" className='object-cover hover:scale-110 transition-transform duration-300'/>
@@ -63,7 +63,7 @@ export default function BlogPost() {
                 </div>
             </div>
 
-            <div className='grid grid-cols-2 md:grid-cols-1 space-y-8'>
+            <div className='grid grid-cols-1 space-y-8'>
                 <div className='max-w-xs'>
                     <div className='overflow-hidden z-40 relative'>
                         <img src="/images/blog-post-4.webp" alt="Blog Post" className='object-cover hover:scale-110 transition-transform duration-300'/>

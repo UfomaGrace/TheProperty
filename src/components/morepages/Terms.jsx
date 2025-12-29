@@ -50,7 +50,7 @@ export default function Terms() {
             </p>
         </div>
 
-        <div className='px-18 py-12'>
+        <div className='md:px-18 px-2 py-12'>
 
             {/* Terms 1 */}
             <div className='mt-4'>

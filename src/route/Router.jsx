@@ -9,6 +9,8 @@ import Propertiess from '../pages/Propertiess'
 import Agentss from '../pages/Agentss'
 import Blogss from '../pages/Blogss'
 import Termspage from '../pages/Termspage'
+import Privacypage from '../pages/Privacypage'
+import ServiceDetailspage from '../pages/ServiceDetailspage'
 
 function Router() {
   return (
@@ -22,6 +24,8 @@ function Router() {
           <Route path='agent' element={<Agentss/>} />
           <Route path='blog' element={<Blogss/>} />
           <Route path='terms' element={<Termspage/>}/>
+          <Route path='privacy' element={<Privacypage/>}/>
+          <Route path='service-details' element={<ServiceDetailspage/>}/>
           <Route path='*' element={<Error/>}/>
         </Route>
       </Routes>
